@@ -122,8 +122,8 @@ function App() {
         </div>
       </header>
 
-      {/* Canvas - Full viewport, scrollable */}
-      <main className="pt-10 pb-4 px-2">
+      {/* Canvas - starts immediately, scrollable */}
+      <main className="pt-9 pl-1">
         <RoomCanvas
           furniture={furniture}
           setFurniture={setFurniture}
