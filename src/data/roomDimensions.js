@@ -2,7 +2,7 @@
 // All measurements in inches
 // Floor plan orientation: Top = Window, Left = Kitchen, Bottom = Entry/Bathroom
 
-export const SCALE = 2; // 1 inch = 2 pixels
+export const SCALE = 3.5; // 1 inch = 3.5 pixels - BIG canvas, scroll to explore
 
 // Main room dimensions from floor plan
 export const ROOM = {

@@ -6,9 +6,9 @@ import ZoneOverlays from './ZoneOverlays';
 import TrafficPaths from './TrafficPaths';
 import DraggableFurniture from '../Furniture/DraggableFurniture';
 
-const TOTAL_HEIGHT = ROOM.livingDepth + ROOM.bedroomDepth + 40;
-const CANVAS_WIDTH = ROOM.livingWidth * SCALE + 120;
-const CANVAS_HEIGHT = TOTAL_HEIGHT * SCALE + 120;
+const TOTAL_HEIGHT = ROOM.livingDepth + ROOM.bedroomDepth + 30;
+const CANVAS_WIDTH = ROOM.livingWidth * SCALE + 80;
+const CANVAS_HEIGHT = TOTAL_HEIGHT * SCALE + 80;
 
 export default function RoomCanvas({
   furniture,
@@ -249,7 +249,7 @@ export default function RoomCanvas({
       <rect x="0" y="0" width={CANVAS_WIDTH} height={CANVAS_HEIGHT} fill="#0a0a0f" />
 
       {/* Offset group */}
-      <g transform="translate(60, 60)">
+      <g transform="translate(30, 30)">
         {/* Living/Kitchen floor */}
         <rect
           className="room-floor"
